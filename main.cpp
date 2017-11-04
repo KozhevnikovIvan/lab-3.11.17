@@ -6,7 +6,8 @@ using namespace ns1;
 using namespace ns2;
 int main ()
 {
-cout<<"n!"<<n<<endl;
-cout<<"m!"<<m<<endl;
-foo ();
+cout<<"n:"<<n<<endl;
+cout<<"m:"<<m<<endl;
+ns1::foo;
+ns2::foo;
 }
