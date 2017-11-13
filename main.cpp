@@ -8,5 +8,7 @@ int main ()
 {
 cout<<"n:"<<n<<endl;
 cout<<"m:"<<m<<endl;
-foo ();
+ns1::foo;
+ns2::foo;
 }
+
