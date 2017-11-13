@@ -6,9 +6,10 @@ using namespace ns1;
 using namespace ns2;
 int main ()
 {
+using ns1::foo;
 cout<<"n:"<<n<<endl;
 cout<<"m:"<<m<<endl;
-ns1::foo;
-ns2::foo;
+cout<<foo<<endl;
 }
+
 
